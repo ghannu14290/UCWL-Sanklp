@@ -64,7 +64,6 @@
 		43E0EBE61F4EC8B6004B2B81 /* RedeemPointsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E0EBE51F4EC8B6004B2B81 /* RedeemPointsVC.swift */; };
 		43E434BB1F57DC0A00171BE6 /* OrderHistoryTableviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E434BA1F57DC0A00171BE6 /* OrderHistoryTableviewVC.swift */; };
 		43E434BD1F57DC1D00171BE6 /* OrdrHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E434BC1F57DC1D00171BE6 /* OrdrHistoryTableViewCell.swift */; };
-		64F040284C4D20AB8F4CC0F3 /* Pods_JKL_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 426C4B51C00D9D2A8C25CC02 /* Pods_JKL_App.framework */; };
 		B251E0E320087D5E00C5EC78 /* AllocationHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B251E0E220087D5E00C5EC78 /* AllocationHistoryVC.swift */; };
 		B2D7DED71F7E5FDE00D3FB31 /* RedeemPointsMemberVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D7DED61F7E5FDE00D3FB31 /* RedeemPointsMemberVC.swift */; };
 		F39471DAB2FAF9DF0AE14B3B /* Pods_Sankalp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423FF877AF4183E963EEF703 /* Pods_Sankalp.framework */; };
@@ -175,7 +174,6 @@
 				4363B0BD1F457FA200BF7DD0 /* SwiftyJSON.framework in Frameworks */,
 				4363B0BB1F457F9C00BF7DD0 /* MBProgressHUD.framework in Frameworks */,
 				4363B0B91F457F9500BF7DD0 /* Alamofire.framework in Frameworks */,
-				64F040284C4D20AB8F4CC0F3 /* Pods_JKL_App.framework in Frameworks */,
 				F39471DAB2FAF9DF0AE14B3B /* Pods_Sankalp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -945,7 +943,7 @@
 					"$(PROJECT_DIR)/build/Debug-iphoneos/SDWebImage",
 				);
 				INFOPLIST_FILE = "JKL App/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JKL.JKLSky1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -973,7 +971,7 @@
 					"$(PROJECT_DIR)/build/Debug-iphoneos/SDWebImage",
 				);
 				INFOPLIST_FILE = "JKL App/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JKL.JKLSky1;
 				PRODUCT_NAME = "$(TARGET_NAME)";

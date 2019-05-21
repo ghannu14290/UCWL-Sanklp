@@ -8,7 +8,7 @@ target 'Sankalp' do
 
   pod 'MBProgressHUD'
   pod 'SwiftyJSON', '3.0.0'
-  pod 'SDWebImage', '3.8'
+  pod 'SDWebImage', '~> 5.0'
   pod 'DatePickerDialog'
   pod 'Alamofire', '~> 4.7'
 
