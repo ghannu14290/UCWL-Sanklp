@@ -91,7 +91,7 @@ class MyProfileScreen: UIViewController
         
         imageview.layer.borderColor = UIColor.clear.cgColor
         imageview.layer.borderWidth = 1.0;
-        imageview.layer.cornerRadius = 34.0
+        imageview.layer.cornerRadius = self.imageview.frame.size.width/2
         imageview.clipsToBounds = true
         
         //CALL THE PROFILE API FOR SHOWING THE USER DETAILS.

@@ -64,6 +64,7 @@
 		43E0EBE61F4EC8B6004B2B81 /* RedeemPointsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E0EBE51F4EC8B6004B2B81 /* RedeemPointsVC.swift */; };
 		43E434BB1F57DC0A00171BE6 /* OrderHistoryTableviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E434BA1F57DC0A00171BE6 /* OrderHistoryTableviewVC.swift */; };
 		43E434BD1F57DC1D00171BE6 /* OrdrHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E434BC1F57DC1D00171BE6 /* OrdrHistoryTableViewCell.swift */; };
+		A5CB533C229454C1006D9CF5 /* Final UCWL.docx in Resources */ = {isa = PBXBuildFile; fileRef = A5CB533B229454C0006D9CF5 /* Final UCWL.docx */; };
 		B251E0E320087D5E00C5EC78 /* AllocationHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B251E0E220087D5E00C5EC78 /* AllocationHistoryVC.swift */; };
 		B2D7DED71F7E5FDE00D3FB31 /* RedeemPointsMemberVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D7DED61F7E5FDE00D3FB31 /* RedeemPointsMemberVC.swift */; };
 		F39471DAB2FAF9DF0AE14B3B /* Pods_Sankalp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423FF877AF4183E963EEF703 /* Pods_Sankalp.framework */; };
@@ -158,6 +159,7 @@
 		7F6F4FA2D7CB6AE56F3B8B1A /* Pods-JKL App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKL App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JKL App/Pods-JKL App.debug.xcconfig"; sourceTree = "<group>"; };
 		94226E8DCA740205738E8BF0 /* Pods_JKL_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JKL_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5BF0D5DBD9335EB2E0A2C6D /* Pods-JKL App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKL App.release.xcconfig"; path = "Pods/Target Support Files/Pods-JKL App/Pods-JKL App.release.xcconfig"; sourceTree = "<group>"; };
+		A5CB533B229454C0006D9CF5 /* Final UCWL.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Final UCWL.docx"; sourceTree = "<group>"; };
 		B251E0E220087D5E00C5EC78 /* AllocationHistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllocationHistoryVC.swift; sourceTree = "<group>"; };
 		B2D7DED61F7E5FDE00D3FB31 /* RedeemPointsMemberVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedeemPointsMemberVC.swift; sourceTree = "<group>"; };
 		D71D4BEAF118DAA8F57DFC52 /* Pods-Sankalp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sankalp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sankalp/Pods-Sankalp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -322,6 +324,7 @@
 		4363B0771F4560EC00BF7DD0 /* JKL App */ = {
 			isa = PBXGroup;
 			children = (
+				A5CB533B229454C0006D9CF5 /* Final UCWL.docx */,
 				4363B0781F4560EC00BF7DD0 /* AppDelegate.swift */,
 				4363B0AB1F45632800BF7DD0 /* SplashScreen.swift */,
 				4363B0AA1F45631600BF7DD0 /* DD MenuController */,
@@ -639,6 +642,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5CB533C229454C1006D9CF5 /* Final UCWL.docx in Resources */,
 				4363B0831F4560EC00BF7DD0 /* LaunchScreen.storyboard in Resources */,
 				4363B0801F4560EC00BF7DD0 /* Assets.xcassets in Resources */,
 				4363B07E1F4560EC00BF7DD0 /* Main.storyboard in Resources */,
