@@ -990,18 +990,18 @@ class HomeScreen: UIViewController,UIScrollViewDelegate
                        
                         
                         self.tiername = response["TierName"].stringValue
-                        if self.tiername.count > 1 {
-                            self.tralingConstraints.constant = 138
-                        }
-                        else {
-                            if self.memberName.count > 4 {
-                                self.tralingConstraints.constant = 143
-                            }
-                            else {
-                                self.tralingConstraints.constant = 133
-
-                            }
-                        }
+//                        if self.tiername.count > 1 {
+//                            self.tralingConstraints.constant = 138
+//                        }
+//                        else {
+//                            if self.memberName.count > 4 {
+//                                self.tralingConstraints.constant = 143
+//                            }
+//                            else {
+//                                self.tralingConstraints.constant = 133
+//
+//                            }
+//                        }
                         self.view.setNeedsLayout()
                         self.view.layoutIfNeeded()
                         
