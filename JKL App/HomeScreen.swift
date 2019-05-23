@@ -302,7 +302,7 @@ class HomeScreen: UIViewController,UIScrollViewDelegate
             let firstLabel = UILabel(frame: CGRect(x:81, y:19, width: 227, height: 21))
             firstLabel.textAlignment = .left
             firstLabel.text = "My Transactions"
-            firstLabel.textColor = UIColor(red: 32/255, green: 95/255, blue: 166/255, alpha: 1)
+            firstLabel.textColor = UIColor(red: 238.0/255, green: 49.0/255, blue: 53.0/255, alpha: 1)
             firstLabel.font = UIFont.boldSystemFont(ofSize: 18)
             firstView.addSubview(firstLabel)
         
@@ -327,7 +327,7 @@ class HomeScreen: UIViewController,UIScrollViewDelegate
             let secondLabel = UILabel(frame: CGRect(x:92, y:19, width: 250, height: 21))
             secondLabel.textAlignment = .left
             secondLabel.text = "Redemption"
-            secondLabel.textColor = UIColor(red: 32/255, green: 95/255, blue: 166/255, alpha: 1)
+            secondLabel.textColor = UIColor(red: 238.0/255, green: 49.0/255, blue: 53.0/255, alpha: 1)
             secondLabel.font = UIFont.boldSystemFont(ofSize: 18)
             secondView.addSubview(secondLabel)
         
