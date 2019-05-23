@@ -131,11 +131,11 @@ class StoreAdvertisingScreen: UIViewController,UIImagePickerControllerDelegate,U
       {
     
         
-        let alert = UIAlertController(title: "", message: "Coming Soon...", preferredStyle: UIAlertControllerStyle.alert)
+       /* let alert = UIAlertController(title: "", message: "Coming Soon...", preferredStyle: UIAlertControllerStyle.alert)
         alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
-        self.present(alert, animated: true, completion: nil)
+        self.present(alert, animated: true, completion: nil)*/
 
-   //     self.advertisingAPI()
+        self.advertisingAPI()
     
        }
         

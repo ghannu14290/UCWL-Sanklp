@@ -119,7 +119,8 @@ class AddTransactionScreen: UIViewController, UITextFieldDelegate, productProtoc
             memberNamelabel.text = memberName
             memberTypeLabel.text = "Member Type : \(memberType)"
             mobileNOLabel.text = membermobileNumber
-            balnceLabel.text = "Balance : \(balance)"
+            balnceLabel.text = "Balance : \(22)"
+            
             
         }
         else if membertype == "R"
