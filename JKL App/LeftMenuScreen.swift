@@ -43,7 +43,10 @@ class LeftMenuScreen: UIViewController,UITableViewDelegate, UITableViewDataSourc
         
         //CALL FUNCTION FOR DISPLAYING THE ARRAY.
         self.addObjectToArray()
-
+        let viewStatusBar  = UIView(frame: CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: 50))
+        viewStatusBar.backgroundColor = UIColor(red: 238.0/255, green: 49.0/255, blue: 53.0/255, alpha: 1)
+        view.addSubview(viewStatusBar)
+        
         
     }
     
@@ -135,6 +138,7 @@ class LeftMenuScreen: UIViewController,UITableViewDelegate, UITableViewDataSourc
             profileImageview.isUserInteractionEnabled = true
             profileImageview.contentMode = .scaleAspectFill
             profileImageview.frame = CGRect(x: 20, y: 70, width: 60, height: 60)
+            profileImageview.layer.cornerRadius = profileImageview.frame.size.width/2
             cell.contentView.addSubview(profileImageview)
           
 

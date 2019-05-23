@@ -1714,7 +1714,7 @@ TmFtZSAQA
                                                 <rect key="frame" x="68" y="19" width="216" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                                <color key="textColor" red="0.81462166879999998" green="0.1806059532" blue="0.2045046576" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="textColor" red="0.93333333333333335" green="0.1806059532" blue="0.20392156862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -1731,7 +1731,7 @@ TmFtZSAQA
                                                 <rect key="frame" x="68" y="19" width="205" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                                <color key="textColor" red="0.81462166879999998" green="0.1806059532" blue="0.2045046576" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="textColor" red="0.97647058823529409" green="0.19215686274509802" blue="0.20784313725490194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -1749,7 +1749,7 @@ TmFtZSAQA
                                                 <rect key="frame" x="68" y="19" width="196" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                                <color key="textColor" red="0.81462166879999998" green="0.1806059532" blue="0.2045046576" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="textColor" red="0.93333333333333335" green="0.19215686274509802" blue="0.20784313725490194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -1770,7 +1770,7 @@ TmFtZSAQA
                                                 <rect key="frame" x="68" y="19" width="196" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                                <color key="textColor" red="0.81462166879999998" green="0.1806059532" blue="0.2045046576" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="textColor" red="0.93333333333333335" green="0.19215686274509802" blue="0.20784313725490194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -1790,7 +1790,7 @@ TmFtZSAQA
                                                 <rect key="frame" x="68" y="19" width="205" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                                <color key="textColor" red="0.81462166879999998" green="0.1806059532" blue="0.2045046576" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="textColor" red="0.93333333333333335" green="0.1764705882352941" blue="0.20784313725490194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -1879,7 +1879,7 @@ TmFtZSAQA
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" directionalLockEnabled="YES" bounces="NO" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="40" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="rBS-Zb-t33">
-                                <rect key="frame" x="0.0" y="-12" width="320" height="580"/>
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                                 <color key="backgroundColor" red="0.89711445570000004" green="0.89779645200000002" blue="0.89722007510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="sectionIndexBackgroundColor" red="0.89711445570000004" green="0.89779645200000002" blue="0.89722007510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
@@ -1914,7 +1914,7 @@ TmFtZSAQA
                         <constraints>
                             <constraint firstItem="rBS-Zb-t33" firstAttribute="bottom" secondItem="m44-NS-7uF" secondAttribute="top" id="2PE-Ih-hoE"/>
                             <constraint firstAttribute="trailing" secondItem="rBS-Zb-t33" secondAttribute="trailing" id="8Ln-4P-xPN"/>
-                            <constraint firstItem="rBS-Zb-t33" firstAttribute="top" secondItem="x3g-W8-H2P" secondAttribute="topMargin" constant="-32" id="Ipc-ID-ueK"/>
+                            <constraint firstItem="rBS-Zb-t33" firstAttribute="top" secondItem="x3g-W8-H2P" secondAttribute="topMargin" id="Ipc-ID-ueK"/>
                             <constraint firstItem="rBS-Zb-t33" firstAttribute="leading" secondItem="x3g-W8-H2P" secondAttribute="leading" id="xa2-7h-Oin"/>
                         </constraints>
                     </view>
@@ -2534,7 +2534,7 @@ TmFtZSAQA
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FtX-tY-Fbe">
-                                <rect key="frame" x="82" y="90" width="155" height="30"/>
+                                <rect key="frame" x="82" y="76" width="155" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.93176490069999995" green="0.19291847940000001" blue="0.20978346470000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
