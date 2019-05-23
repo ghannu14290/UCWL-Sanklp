@@ -12,7 +12,7 @@ import SwiftyJSON
 import MBProgressHUD
 
 
-class OTPScreen: UIViewController, UITextFieldDelegate
+class OTPScreen: UIViewController, UITextFieldDelegate , UIGestureRecognizerDelegate
 {
     
     //OULETS.
@@ -45,6 +45,7 @@ class OTPScreen: UIViewController, UITextFieldDelegate
     var Idstate : String!
     var IdDistrict : String!
  
+    @IBOutlet weak var scrollView: UIScrollView!
     
     
     override func viewDidLoad()
@@ -72,7 +73,54 @@ class OTPScreen: UIViewController, UITextFieldDelegate
         //DETAILS
         self.details()
         
+        
+        // Gesture
+      let  tapGesture = UITapGestureRecognizer(target: self, action: #selector(self.myviewTapped(_:)))
+        tapGesture.numberOfTapsRequired = 1
+        tapGesture.numberOfTouchesRequired = 1
+        view.addGestureRecognizer(tapGesture)
+        self.otpTextfield.addToolBarInKeyBoard()
+        self.registerKeyboardNotifications()
     }
+    
+    
+    // TapGesture Handle
+    @objc func myviewTapped(_ sender: UITapGestureRecognizer) {
+        
+       self.view.endEditing(true)
+    }
+    
+    // Keyboard appears and scrolling handling
+    func registerKeyboardNotifications() {
+        NotificationCenter.default.addObserver(self,
+                                               selector: #selector(keyboardWillShow(notification:)),
+                                               name: NSNotification.Name.UIKeyboardWillShow,
+                                               object: nil)
+        NotificationCenter.default.addObserver(self,
+                                               selector: #selector(keyboardWillHide(notification:)),
+                                               name: NSNotification.Name.UIKeyboardWillHide,
+                                               object: nil)
+    }
+    
+    deinit {
+        NotificationCenter.default.removeObserver(self)
+    }
+    @objc func keyboardWillShow(notification: NSNotification) {
+        let userInfo: NSDictionary = notification.userInfo! as NSDictionary
+        let keyboardInfo = userInfo[UIKeyboardFrameBeginUserInfoKey] as! NSValue
+        let keyboardSize = keyboardInfo.cgRectValue.size
+        let contentInsets = UIEdgeInsets(top: 0, left: 0, bottom: keyboardSize.height, right: 0)
+         scrollView.contentInset = contentInsets
+       scrollView.scrollIndicatorInsets = contentInsets
+    }
+    
+    @objc func keyboardWillHide(notification: NSNotification) {
+        scrollView.contentInset = .zero
+        scrollView.scrollIndicatorInsets = .zero
+    }
+    
+    
+    
     
     
     //FUNCTION FOR BACKBUTTON ACTION FROM NAVIGATION BAR
@@ -581,5 +629,36 @@ class OTPScreen: UIViewController, UITextFieldDelegate
         }
     }
     
+    
+}
+
+
+extension UITextField{
+    
+    func addToolBarInKeyBoard() {
+        let numberToolbar = UIToolbar(frame:CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 50))
+        numberToolbar.barStyle = .default
+        numberToolbar.items = [
+            UIBarButtonItem(title: "Cancel", style: .plain, target: self, action: #selector(cancelNumberPad)),
+            UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: nil, action: nil),
+            UIBarButtonItem(title: "Done", style: .plain, target: self, action: #selector(doneWithNumberPad))]
+        numberToolbar.sizeToFit()
+        self.inputAccessoryView = numberToolbar
+            
+      
+        
+       
+    }
+    
+    @objc func cancelNumberPad() {
+        //Cancel with number pad
+        
+        self.text = ""
+        self.resignFirstResponder()
+    }
+    @objc func doneWithNumberPad() {
+        //Done with number pad
+        self.resignFirstResponder()
+    }
     
 }

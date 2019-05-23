@@ -88,22 +88,9 @@ class CampaignTypeVc: UIViewController, UITableViewDelegate, UITableViewDataSour
     //TABLEVIEW DELEGATE AND DATASOURCE METHODS.
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
-        if campaignName.count == 0
-        {
-            let alert = UIAlertController(title:"", message:"Coming Soon!!" , preferredStyle: UIAlertControllerStyle.alert)
-            alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler:  { action in
-                
-               self.navigationController?.popViewController(animated: true)
-                
-            }))
-            self.present(alert, animated: true, completion: nil)
-        }
-        else
-        {
+      
         return campaignName.count
-        }
-        
-         return 0
+       
     }
     
     
@@ -205,6 +192,18 @@ class CampaignTypeVc: UIViewController, UITableViewDelegate, UITableViewDataSour
                         print(self.campaignName)
                        
                     }
+                    
+                    if self.campaignName.count == 0{
+                        
+                        let alert = UIAlertController(title:"", message:"Coming Soon!!" , preferredStyle: UIAlertControllerStyle.alert)
+                        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler:  { action in
+                            
+                            self.navigationController?.popViewController(animated: true)
+                            
+                        }))
+                        self.present(alert, animated: true, completion: nil)
+                    }
+                    
                     
                     if swiftyJsonVar["GetStoreAdvertisingCampaign"]["Result"].stringValue == "Success"
                     {
