@@ -51,6 +51,7 @@ class StoreAdvertisingScreen: UIViewController,UIImagePickerControllerDelegate,U
         backButn.setImage(UIImage(named: "ic_action_back (1)"), for: .normal)
         backButn.frame = CGRect(x: 0,y: 0,width: 30,height: 30)
         backButn.addTarget(self, action: #selector(back), for:.touchUpInside)
+         backButn.imageEdgeInsets = UIEdgeInsets(top: 0, left: -20.0, bottom: 0, right: 13.0)
         self.navigationItem.setLeftBarButton(UIBarButtonItem(customView: backButn), animated: true)
         
         //SET THE BORDER COLOR.
@@ -65,8 +66,9 @@ class StoreAdvertisingScreen: UIViewController,UIImagePickerControllerDelegate,U
     //FUNCTION FOR BACKBUTTON ACTION FROM NAVIGATION BAR
     @objc func back()
     {
-        let appDelegate = UIApplication.shared.delegate as! AppDelegate
-        appDelegate.leftmenu()
+       // self.navigationController?.popViewController(animated: true)
+         let appDelegate = UIApplication.shared.delegate as! AppDelegate
+         appDelegate.leftmenu()
     }
     
     override func didReceiveMemoryWarning()

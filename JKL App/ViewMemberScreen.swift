@@ -92,6 +92,7 @@ class ViewMemberScreen: UIViewController, UITableViewDelegate, UITableViewDataSo
         backButn.setImage(UIImage(named: "ic_action_back (1)"), for: .normal)
         backButn.frame = CGRect(x: 0,y: 0,width: 30,height: 30)
         backButn.addTarget(self, action: #selector(back), for:.touchUpInside)
+         backButn.imageEdgeInsets = UIEdgeInsets(top: 0, left: -20.0, bottom: 0, right: 13.0)
         self.navigationItem.setLeftBarButton(UIBarButtonItem(customView: backButn), animated: true)
         
         
@@ -186,7 +187,7 @@ class ViewMemberScreen: UIViewController, UITableViewDelegate, UITableViewDataSo
       
         
         //STATE
-        let state = UILabel(frame: CGRect(x: 16, y:87, width: 150, height: 20))
+        let state = UILabel(frame: CGRect(x: 16, y:87, width: 250, height: 20))
         state.textAlignment = .left
         state.text = "State : \(self.state[indexPath.row])"
         state.textColor=UIColor.darkGray
@@ -195,7 +196,7 @@ class ViewMemberScreen: UIViewController, UITableViewDelegate, UITableViewDataSo
         
         
         //DISTRICT
-        let district = UILabel(frame: CGRect(x: 16, y:state.frame.size.height + state.frame.origin.y + 5, width: 200, height: 20))
+        let district = UILabel(frame: CGRect(x: 16, y:state.frame.size.height + state.frame.origin.y + 5, width: 250, height: 20))
         district.textAlignment = .left
         district.text = "District : \(self.district[indexPath.row])"
         district.textColor=UIColor.darkGray
