@@ -46,7 +46,7 @@ class LeftMenuScreen: UIViewController,UITableViewDelegate, UITableViewDataSourc
         let viewStatusBar  = UIView(frame: CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: 50))
         viewStatusBar.backgroundColor = UIColor(red: 238.0/255, green: 49.0/255, blue: 53.0/255, alpha: 1)
         view.addSubview(viewStatusBar)
-        
+        leftTableview.backgroundColor = UIColor(red: 241.0/255, green: 212.0/255, blue: 147.0/255, alpha: 1)
         
     }
     
@@ -108,7 +108,8 @@ class LeftMenuScreen: UIViewController,UITableViewDelegate, UITableViewDataSourc
     {
         
         let cell:UITableViewCell=UITableViewCell(style: UITableViewCellStyle.subtitle, reuseIdentifier: "LeftMenuTableViewCell")
-        
+        cell.backgroundColor = UIColor.clear
+        cell.contentView.backgroundColor = UIColor.clear
         
         
         //SET THE CELL TEXT ACCORDING TO REATILER AND DEALER.
@@ -175,7 +176,7 @@ class LeftMenuScreen: UIViewController,UITableViewDelegate, UITableViewDataSourc
       
         else
         {
-            cell.backgroundColor = UIColor(red: 229/255, green: 229/255, blue: 229/255, alpha: 1)
+            cell.backgroundColor = UIColor(red: 241.0/255, green: 212.0/255, blue: 147.0/255, alpha: 1)
         
             
             if membertype == "D"
