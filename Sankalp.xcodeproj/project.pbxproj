@@ -64,6 +64,7 @@
 		43E0EBE61F4EC8B6004B2B81 /* RedeemPointsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E0EBE51F4EC8B6004B2B81 /* RedeemPointsVC.swift */; };
 		43E434BB1F57DC0A00171BE6 /* OrderHistoryTableviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E434BA1F57DC0A00171BE6 /* OrderHistoryTableviewVC.swift */; };
 		43E434BD1F57DC1D00171BE6 /* OrdrHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E434BC1F57DC1D00171BE6 /* OrdrHistoryTableViewCell.swift */; };
+		A5B1527E22B33F0F00787770 /* AppUpdateHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B1527D22B33F0F00787770 /* AppUpdateHandler.swift */; };
 		A5CB533C229454C1006D9CF5 /* Final UCWL.docx in Resources */ = {isa = PBXBuildFile; fileRef = A5CB533B229454C0006D9CF5 /* Final UCWL.docx */; };
 		B251E0E320087D5E00C5EC78 /* AllocationHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B251E0E220087D5E00C5EC78 /* AllocationHistoryVC.swift */; };
 		B2D7DED71F7E5FDE00D3FB31 /* RedeemPointsMemberVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D7DED61F7E5FDE00D3FB31 /* RedeemPointsMemberVC.swift */; };
@@ -157,6 +158,7 @@
 		43E434BC1F57DC1D00171BE6 /* OrdrHistoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrdrHistoryTableViewCell.swift; sourceTree = "<group>"; };
 		7F6F4FA2D7CB6AE56F3B8B1A /* Pods-JKL App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKL App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JKL App/Pods-JKL App.debug.xcconfig"; sourceTree = "<group>"; };
 		94226E8DCA740205738E8BF0 /* Pods_JKL_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JKL_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5B1527D22B33F0F00787770 /* AppUpdateHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUpdateHandler.swift; sourceTree = "<group>"; };
 		A5BF0D5DBD9335EB2E0A2C6D /* Pods-JKL App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKL App.release.xcconfig"; path = "Pods/Target Support Files/Pods-JKL App/Pods-JKL App.release.xcconfig"; sourceTree = "<group>"; };
 		A5CB533B229454C0006D9CF5 /* Final UCWL.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Final UCWL.docx"; sourceTree = "<group>"; };
 		B251E0E220087D5E00C5EC78 /* AllocationHistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllocationHistoryVC.swift; sourceTree = "<group>"; };
@@ -322,6 +324,7 @@
 		4363B0771F4560EC00BF7DD0 /* JKL App */ = {
 			isa = PBXGroup;
 			children = (
+				A5B1527B22B33EB700787770 /* AppVersionUpdateHandler */,
 				A5CB533B229454C0006D9CF5 /* Final UCWL.docx */,
 				4363B0781F4560EC00BF7DD0 /* AppDelegate.swift */,
 				4363B0AB1F45632800BF7DD0 /* SplashScreen.swift */,
@@ -507,6 +510,14 @@
 				DEB6E9DAB4A7C8396BC762E4 /* Pods-Sankalp.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		A5B1527B22B33EB700787770 /* AppVersionUpdateHandler */ = {
+			isa = PBXGroup;
+			children = (
+				A5B1527D22B33F0F00787770 /* AppUpdateHandler.swift */,
+			);
+			name = AppVersionUpdateHandler;
 			sourceTree = "<group>";
 		};
 		E0D5728332BCB1200C8C2EF6 /* Frameworks */ = {
@@ -745,6 +756,7 @@
 				4333B8741F4C0B0100599EBF /* StateTableView.swift in Sources */,
 				43DB83C61F46E5D7000A7B51 /* AddMemberScreen.swift in Sources */,
 				43DB83C11F46E312000A7B51 /* MyProfileScreen.swift in Sources */,
+				A5B1527E22B33F0F00787770 /* AppUpdateHandler.swift in Sources */,
 				4363B0A91F45631200BF7DD0 /* DDMenuController.m in Sources */,
 				43DB83D61F46E79F000A7B51 /* TandCScreen.swift in Sources */,
 				4363B0C61F45C84F00BF7DD0 /* MyTransactionsScreen.swift in Sources */,
