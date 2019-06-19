@@ -177,6 +177,38 @@
             endingLineNumber = "656"
             landmarkName = "EditprofileApi()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sankalp.EditMyProfileScreen.EditprofileApi() -&gt; ()"
+                  moduleName = "Sankalp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ghanshaymgupta/Documents/GhannuApp3/JKL%20App/EditMyProfileScreen.swift"
+                  timestampString = "580764917.848536"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "656"
+                  endingLineNumber = "656"
+                  offsetFromSymbolStart = "9723">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Any&gt;) -&gt; () in Sankalp.EditMyProfileScreen.EditprofileApi() -&gt; ()"
+                  moduleName = "Sankalp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ghanshaymgupta/Documents/GhannuApp3/JKL%20App/EditMyProfileScreen.swift"
+                  timestampString = "580764917.85232"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "659"
+                  endingLineNumber = "659"
+                  offsetFromSymbolStart = "178">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -282,13 +314,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "JKL App/AddTransactionScreen.swift"
-            timestampString = "580239627.340222"
+            timestampString = "580764917.1875859"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "114"
             endingLineNumber = "114"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "displayDetails()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -304,6 +336,22 @@
             startingLineNumber = "691"
             endingLineNumber = "691"
             landmarkName = "viewMember()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JKL App/ProductNameTableVC.swift"
+            timestampString = "580764917.190383"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "171"
+            endingLineNumber = "171"
+            landmarkName = "ProductApi()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

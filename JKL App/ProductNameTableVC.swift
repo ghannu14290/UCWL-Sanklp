@@ -201,6 +201,9 @@ class ProductNameTableVC: UIViewController, UITableViewDelegate,UITableViewDataS
                         
                     else
                     {
+                        
+                        UserDefaults.standard.set("", forKey: "productID")
+                        UserDefaults.standard.synchronize()
                         self.hideProgress()
                         //SHOW ALERT WHEN USERID IS WRONG
                         let alert = UIAlertController(title:"", message:result , preferredStyle: UIAlertControllerStyle.alert)
