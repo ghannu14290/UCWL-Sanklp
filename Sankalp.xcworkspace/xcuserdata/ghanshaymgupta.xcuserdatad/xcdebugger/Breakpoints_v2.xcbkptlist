@@ -186,7 +186,7 @@
                   moduleName = "Sankalp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/ghanshaymgupta/Documents/GhannuApp3/JKL%20App/EditMyProfileScreen.swift"
-                  timestampString = "582227112.006618"
+                  timestampString = "582744218.15653"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "656"
@@ -201,7 +201,7 @@
                   moduleName = "Sankalp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/ghanshaymgupta/Documents/GhannuApp3/JKL%20App/EditMyProfileScreen.swift"
-                  timestampString = "582227112.010304"
+                  timestampString = "582744218.15915"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "659"
@@ -361,30 +361,14 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "JKL App/AppDelegate.swift"
-            timestampString = "582227236.80417"
+            filePath = "JKL App/SplashScreen.swift"
+            timestampString = "582744217.746637"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "71"
-            endingLineNumber = "71"
-            landmarkName = "unknown"
-            landmarkType = "0">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "JKL App/AppDelegate.swift"
-            timestampString = "582227236.8045501"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "76"
-            endingLineNumber = "76"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
