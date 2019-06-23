@@ -3830,7 +3830,7 @@ TmFtZSAQA
     <resources>
         <image name="Default" width="320" height="480"/>
         <image name="ManageMember" width="64" height="64"/>
-        <image name="Sky App" width="640" height="960"/>
+        <image name="Sky App" width="360" height="640"/>
         <image name="allocrevised" width="2748.5" height="2731"/>
         <image name="bg_splash" width="1347" height="1705"/>
         <image name="download" width="128" height="128"/>
