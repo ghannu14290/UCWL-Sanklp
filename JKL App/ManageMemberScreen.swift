@@ -123,13 +123,18 @@ class ManageMemberScreen: UIViewController, UISearchBarDelegate
     
     func searchBar(_ searchBar: UISearchBar, shouldChangeTextIn range: NSRange, replacementText text: String) -> Bool
     {
-        guard let text = searchBar.text
+        guard let textValue = searchBar.text
             else
         {
             return true
         }
-        let newLength = text.characters.count
-        return newLength <= 10
+        
+        if text.isEmpty {
+            return true
+        }
+        
+        let newLength = textValue.count
+        return newLength <= 9
     }
     
     //FUNCTION FOR CHECK VALID MOBILE NUMBER.

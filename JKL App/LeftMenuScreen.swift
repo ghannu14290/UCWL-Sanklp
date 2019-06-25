@@ -176,7 +176,7 @@ class LeftMenuScreen: UIViewController,UITableViewDelegate, UITableViewDataSourc
       
         else
         {
-            cell.backgroundColor = UIColor(red: 241.0/255, green: 212.0/255, blue: 147.0/255, alpha: 1)
+            cell.backgroundColor = UIColor(red: 250.0/255, green: 250.0/255, blue: 250.0/255, alpha: 1)
         
             
             if membertype == "D"

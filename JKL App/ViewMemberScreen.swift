@@ -733,10 +733,10 @@ class ViewMemberScreen: UIViewController, UITableViewDelegate, UITableViewDataSo
                         alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler:  { action in
                             
                             //MOVE TO HOME SCREEN
-                            let secondViewController = self.storyboard?.instantiateViewController(withIdentifier: "HomeScreen") as! HomeScreen
+                          /*  let secondViewController = self.storyboard?.instantiateViewController(withIdentifier: "HomeScreen") as! HomeScreen
                             self.navigationController?.pushViewController(secondViewController, animated: true)
                             let appDelegate = UIApplication.shared.delegate as! AppDelegate
-                            appDelegate.leftmenu()
+                            appDelegate.leftmenu()*/
                             
                         }))
                         self.present(alert, animated: true, completion: nil)
