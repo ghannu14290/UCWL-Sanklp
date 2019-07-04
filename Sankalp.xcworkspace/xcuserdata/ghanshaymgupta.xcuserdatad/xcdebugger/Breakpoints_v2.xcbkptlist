@@ -186,7 +186,7 @@
                   moduleName = "Sankalp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/ghanshaymgupta/Documents/UCWL-Sanklp/JKL%20App/EditMyProfileScreen.swift"
-                  timestampString = "583139869.870816"
+                  timestampString = "583211577.596611"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "656"
@@ -201,7 +201,7 @@
                   moduleName = "Sankalp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/ghanshaymgupta/Documents/UCWL-Sanklp/JKL%20App/EditMyProfileScreen.swift"
-                  timestampString = "583139869.874103"
+                  timestampString = "583211577.599648"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "659"
@@ -314,7 +314,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "JKL App/ViewMemberScreen.swift"
-            timestampString = "583139869.452207"
+            timestampString = "583140397.36959"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "691"
@@ -362,12 +362,28 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "JKL App/ManageMemberScreen.swift"
-            timestampString = "583139869.4523"
+            timestampString = "583140397.369742"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "126"
             endingLineNumber = "126"
             landmarkName = "searchBar(_:shouldChangeTextIn:replacementText:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JKL App/AllowedBagsScreen.swift"
+            timestampString = "583211576.3033611"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "206"
+            endingLineNumber = "206"
+            landmarkName = "allowedBagsApi()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
